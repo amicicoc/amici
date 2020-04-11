@@ -18,9 +18,9 @@ body {
  letter-spacing: 0.1em;
 }
 .foto{
-  padding-left: 300px;
-  height: 100px;
-  width: 190px;
+  padding-left: 200px;
+  height: 120px;
+  width: 210px;
 }
 #header a:hover {
  color: #222;
