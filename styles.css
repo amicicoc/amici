@@ -17,6 +17,17 @@ body {
  text-transform: uppercase;
  letter-spacing: 0.1em;
 }
+.foto{
+  padding-left: 300px;
+  height: 140px;
+  width: 230px;
+}
+head {
+  background: linear-gradient (
+    lightRed,
+    black
+    )
+}
 #header a:hover {
  color: #222;
 }
@@ -95,7 +106,6 @@ a:hover {
 .about {
  text-align: center;
 }
-.post-author img,
 .about-author img {
  border-radius: 50%;
 }
@@ -108,4 +118,10 @@ a:hover {
 .post-author img,
 .contact-author img {
  border-radius: 50%;
+}
+.post-author img {
+  border: solid 5px #168ce0;
+  height: 100px;
+  width: 100px;
+  border-radius: 70px;
 }
