@@ -8,38 +8,32 @@ body {
 #header {
   background-color: #168ce0;
   height: 150px;
-  line-height: 150px;
+  line-height: 0px;
 }
 #header a {
  color: white;
  text-decoration: none;
-
  text-transform: uppercase;
  letter-spacing: 0.1em;
-}
-.foto{
-  padding-left: 250px;
-  height: 120px;
-  width: 210px;
 }
 #header a:hover {
  color: #222;
 }
-#header-title {
- display: block;
- float: left;
-
- font-size: 20px;
- font-weight: bold;
+.foto{
+  padding-left: 400px;
+}
+.home {
+  font-size: 20px;
+  font-weight: bold;
 }
 #header-nav {
  display: block;
- float: right;
- margin-top: 0;
+ float: center;
+ margin-top: 100;
 }
 #header-nav li {
  display: inline;
- padding-left: 20px;
+ padding-left: 80px;
 }
 .post, .about, .contact {
  max-width: 800px;
