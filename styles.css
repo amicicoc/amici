@@ -1,10 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-body {
-  color: #555;
-  margin: 0;
-
-  font-family: 'Montserrat', sans-serif;
-}
+<meta name="viewport" content="width=device-width, initial-scale=1">
 {HEADER------}
 #header {
   background-color: #eb1e30;
@@ -37,6 +32,12 @@ body {
   padding-left: 110px;
 }
 {BODY-------}
+body {
+  color: #555;
+  margin: 0;
+
+  font-family: 'Montserrat', sans-serif;
+}
 .post, .about, .contact {
  max-width: 800px;
  margin: 0 auto;
@@ -69,6 +70,22 @@ p {
  max-width: 1000px;
  margin: 0 auto;
 }
+.about {
+ text-align: center;
+}
+.post-container:nth-child(even) {
+ background-color: #ffffff;
+}
+.contact {
+ text-align: center;
+}
+.post-author img,
+.post-author img {
+  border: solid 5px #eb1e30;
+  height: 100px;
+  width: 100px;
+  border-radius: 70px;
+}
 {FOOTER-------------}
 #footer {
  background-color: #2f2f2f;
@@ -93,20 +110,4 @@ a {
 }
 a:hover {
  color: #F6A623;
-}
-.about {
- text-align: center;
-}
-.post-container:nth-child(even) {
- background-color: #ffffff;
-}
-.contact {
- text-align: center;
-}
-.post-author img,
-.post-author img {
-  border: solid 5px #eb1e30;
-  height: 100px;
-  width: 100px;
-  border-radius: 70px;
 }
