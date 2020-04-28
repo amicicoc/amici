@@ -27,10 +27,6 @@
  display: inline;
  padding-left: 80px;
 }
-.container {
- max-width: 1000px;
- margin: 0 0 0 160px;
-}
 .stemma{
   padding-left: 110px;
 }
@@ -43,7 +39,7 @@ body {
 }
 .post, .about, .contact {
  max-width: 800px;
- margin: 0 220px;
+ margin: 0 auto;
  padding: 60px 0;
 }
 .post-autor img {
@@ -69,6 +65,10 @@ h1, h2, h3, h4 {
 p {
  line-height: 1.5;
 }
+.container {
+ max-width: 1000px;
+ margin: 0 auto;
+}
 .about {
  text-align: center;
 }
@@ -91,7 +91,7 @@ p {
 {FOOTER-------------}
 #footer {
  background-color: #2f2f2f;
- padding: 50px 0 0 100px;
+ padding: 50px 0;
 }
 .column {
  min-width: 300px;
