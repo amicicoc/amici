@@ -18,10 +18,14 @@
   font-size: 20px;
   font-weight: bold;
 }
+.linea {
+  margin-left:-15px;
+}
 #header-nav {
  display: block;
  float: center;
  margin-top: 100;
+margin-left: -25px;
 }
 #header-nav li {
  display: inline;
@@ -40,7 +44,7 @@ body {
 .post, .about, .contact {
  max-width: 800px;
  margin: 0 auto;
- padding: 60px 0;
+ padding: 60px 0 100px 0px;
 }
 .post-autor img {
  width: 50px;
@@ -91,10 +95,10 @@ p {
 {FOOTER-------------}
 #footer {
  background-color: #2f2f2f;
- padding: 50px 0;
+ padding: 50px 0px 50px 150px;
 }
 .column {
- min-width: 300px;
+ min-width: 400px;
  display: inline-block;
  vertical-align: top;
 }
