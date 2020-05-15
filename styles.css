@@ -19,13 +19,13 @@
   font-weight: bold;
 }
 .linea {
-  margin-left:-30px;
+  margin-left:-15px;
 }
 #header-nav {
  display: block;
  float: center;
  margin-top: 100;
-margin-left: -15px;
+margin-left: -25px;
 }
 #header-nav li {
  display: inline;
@@ -97,6 +97,12 @@ p {
   width: 100px;
   border-radius: 70px;
 }
+.nocircle  {
+  height: 85px;
+  width: 100px;
+  padding-left: 200px;
+}
+
 {FOOTER-------------}
 #footer {
  background-color: #2f2f2f;
